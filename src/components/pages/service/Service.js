@@ -28,7 +28,7 @@ export default class Service extends Component {
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-lg-4 col-md-6">
+                                <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                                     <div className="service-item mb-30">
                                         <div className="service-icon mb-25">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="79.557" height="57.882" viewBox="0 0 79.557 57.882">
@@ -47,7 +47,7 @@ export default class Service extends Component {
                                             </svg>
                                         </div>
                                         <div className="service-content">
-                                            <h4>Cardiology</h4>
+                                            <h4 className="wow fadeInUp" data-wow-delay="0.6s">Cardiology</h4>
                                             <p>Lorem ipsum dolor sit amet, consetet
 								sadipscing elitr, sed dinonumy eirmod tempor invidunt.</p>
                                             <a href="/" className="read-more">Read More <i className="lni lni-arrow-right"></i></a>
@@ -55,7 +55,7 @@ export default class Service extends Component {
                                         <div className="service-overlay img-bg"></div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6">
+                                <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                                     <div className="service-item mb-30">
                                         <div className="service-icon mb-25">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="57.792" height="58.716" viewBox="0 0 57.792 58.716">
@@ -76,7 +76,7 @@ export default class Service extends Component {
                                             </svg>
                                         </div>
                                         <div className="service-content">
-                                            <h4>Neurology</h4>
+                                            <h4 className="wow fadeInUp" data-wow-delay="0.6s">Neurology</h4>
                                             <p>Lorem ipsum dolor sit amet, consetet
 								sadipscing elitr, sed dinonumy eirmod tempor invidunt.</p>
                                             <a href="/" className="read-more">Read More <i className="lni lni-arrow-right"></i></a>
@@ -84,7 +84,7 @@ export default class Service extends Component {
                                         <div className="service-overlay img-bg"></div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6">
+                                <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                                     <div className="service-item mb-30">
                                         <div className="service-icon mb-25">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="51.275" height="58.44" viewBox="0 0 51.275 58.44">
@@ -101,7 +101,7 @@ export default class Service extends Component {
                                             </svg>
                                         </div>
                                         <div className="service-content">
-                                            <h4>Gastroenterology</h4>
+                                            <h4 className="wow fadeInUp" data-wow-delay="0.6s">Gastroenterology</h4>
                                             <p>Lorem ipsum dolor sit amet, consetet
 								sadipscing elitr, sed dinonumy eirmod tempor invidunt.</p>
                                             <a href="/" className="read-more">Read More <i className="lni lni-arrow-right"></i></a>
@@ -109,7 +109,7 @@ export default class Service extends Component {
                                         <div className="service-overlay img-bg"></div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6">
+                                <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                                     <div className="service-item mb-30">
                                         <div className="service-icon mb-25">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="48.362" height="58.163" viewBox="0 0 48.362 75.163">
@@ -125,7 +125,7 @@ export default class Service extends Component {
                                             </svg>
                                         </div>
                                         <div className="service-content">
-                                            <h4>Orthopedics</h4>
+                                            <h4 className="wow fadeInUp" data-wow-delay="0.6s">Orthopedics</h4>
                                             <p>Lorem ipsum dolor sit amet, consetet
 								sadipscing elitr, sed dinonumy eirmod tempor invidunt.</p>
                                             <a href="/" className="read-more">Read More <i className="lni lni-arrow-right"></i></a>
@@ -133,7 +133,7 @@ export default class Service extends Component {
                                         <div className="service-overlay img-bg"></div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6">
+                                <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                                     <div className="service-item mb-30">
                                         <div className="service-icon mb-25">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="43.302" height="58.633" viewBox="0 0 43.302 58.633">
@@ -151,7 +151,7 @@ export default class Service extends Component {
                                             </svg>
                                         </div>
                                         <div className="service-content">
-                                            <h4>Gynecology</h4>
+                                            <h4 className="wow fadeInUp" data-wow-delay="0.6s">Gynecology</h4>
                                             <p>Lorem ipsum dolor sit amet, consetet
 								sadipscing elitr, sed dinonumy eirmod tempor invidunt.</p>
                                             <a href="/" className="read-more">Read More <i className="lni lni-arrow-right"></i></a>
@@ -159,7 +159,7 @@ export default class Service extends Component {
                                         <div className="service-overlay img-bg"></div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6">
+                                <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                                     <div className="service-item mb-30">
                                         <div className="service-icon mb-25">
                                             <svg id="noun_dental_care_2692540" data-name="noun_dental care_2692540" xmlns="http://www.w3.org/2000/svg"
@@ -175,7 +175,7 @@ export default class Service extends Component {
                                             </svg>
                                         </div>
                                         <div className="service-content">
-                                            <h4>Dental Surgery</h4>
+                                            <h4 className="wow fadeInUp" data-wow-delay="0.6s">Dental Surgery</h4>
                                             <p>Lorem ipsum dolor sit amet, consetet
 								sadipscing elitr, sed dinonumy eirmod tempor invidunt.</p>
                                             <a href="/" className="read-more">Read More <i className="lni lni-arrow-right"></i></a>
@@ -210,7 +210,7 @@ export default class Service extends Component {
 
                 </Contentpage>
 
-                <a href="/services" className="scroll-top">
+                <a href="/services" className="scroll-top wow fadeInUp" data-wow-delay="3s">
                 <i class="lni lni-arrow-up"></i>
             </a>
 

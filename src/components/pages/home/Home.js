@@ -28,30 +28,30 @@ export default class Home extends Component {
                 </div>
                 <Contentpage pagetitlenavbar="Home" >
 
-                    <div className="slider-wrapper">
-                        <section className="slider-section">
-                            <div className="slider-active slick-style">
+     
+                        <section className="slider-section wow fadeInUp" data-wow-delay=".4s">
+                            
                                 <div className="single-slider img-bg" style={{ backgroundImage: `url(${slider1})` }} >
                                     <div className="container">
                                         <div className="row">
                                             <div className="col-xl-7 col-lg-8 col-md-10">
-                                                <div className="slider-content">
+                                                <div className="slider-content wow fadeInUp" data-wow-delay=".6s">
                                                     <h1 >Complete Healthcare Solution
 										</h1>
                                                     <p >Lorem ipsum
                                                     dolor sit amet, consetetur sadipscing elitr, sed dinonumy eirmod tempor invidunt
                                                     ut labore et dolore magna aliquyam erat. Lorem ipsum dolor sit amet, consetetur
 											sadipscing elitr.</p>
-                                                    <a href="/about" className="btn theme-btn page-scroll"
+                                                    <a href="/about" className="btn theme-btn page-scroll wow fadeInUp" data-wow-delay=".8s"
                                                     >Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
+                               
+                            </div>
                             </div>
                         </section>
-                    </div>
+              
 
                     <section className="we-do-section pt-150">
                         <div className="shape shape-1">
@@ -68,7 +68,7 @@ export default class Home extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="row mb-35 wow fadeInUp" data-wow-delay=".8s">
+                            <div className="row">
                                 <div className="col-xl-12">
                                     <div className="graph mb-60">
                                         <img className="mb-35 wow fadeInUp" data-wow-delay="1s" src={graph} alt="graph" />
@@ -76,7 +76,7 @@ export default class Home extends Component {
                                 </div>
                                 <div className="col-lg-3">
                                     <div className="we-do-item mb-30">
-                                        <div className="we-do-icon mb-25">
+                                        <div className="we-do-icon mb-25 wow fadeInUp" data-wow-delay=".4s">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="40.839" height="48.598" viewBox="0 0 40.839 48.598">
                                                 <g id="we-do-1" transform="translate(-12.184 -5)">
                                                     <path id="Path_48" data-name="Path 48"
@@ -98,12 +98,12 @@ export default class Home extends Component {
                                                 </g>
                                             </svg>
                                         </div>
-                                        <h5>Specialist Doctors</h5>
+                                        <h5 className="wow fadeInUp" data-wow-delay=".6s">Specialist Doctors</h5>
                                     </div>
                                 </div>
                                 <div className="col-lg-3">
                                     <div className="we-do-item mb-30">
-                                        <div className="we-do-icon mb-25">
+                                        <div className="we-do-icon mb-25 wow fadeInUp" data-wow-delay=".4s">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="53.947" height="42.07" viewBox="0 0 53.947 42.07">
                                                 <g id="we-do-2" transform="translate(12.41 -88.75)">
                                                     <g id="Group_133" data-name="Group 133" transform="translate(-12.41 88.75)">
@@ -132,12 +132,12 @@ export default class Home extends Component {
                                                 </g>
                                             </svg>
                                         </div>
-                                        <h5>Frequent Visits</h5>
+                                        <h5 className="wow fadeInUp" data-wow-delay=".6s">Frequent Visits</h5>
                                     </div>
                                 </div>
                                 <div className="col-lg-3">
                                     <div className="we-do-item mb-30">
-                                        <div className="we-do-icon mb-25">
+                                        <div className="we-do-icon mb-25 wow fadeInUp" data-wow-delay=".4s">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="48.152" height="48.154" viewBox="0 0 48.152 48.154">
                                                 <g id="we-do-3" transform="translate(-1.846 -1.846)">
                                                     <path id="Path_59" data-name="Path 59"
@@ -149,12 +149,12 @@ export default class Home extends Component {
                                                 </g>
                                             </svg>
                                         </div>
-                                        <h5>Cordial Administration</h5>
+                                        <h5 className="wow fadeInUp" data-wow-delay=".6s">Cordial Administration</h5>
                                     </div>
                                 </div>
                                 <div className="col-lg-3">
                                     <div className="we-do-item mb-30">
-                                        <div className="we-do-icon mb-25">
+                                        <div className="we-do-icon mb-25 wow fadeInUp" data-wow-delay=".4s">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="46.239" height="51.043" viewBox="0 0 46.239 51.043">
                                                 <g id="we-do-4" transform="translate(-1273.5 -1752.346)">
                                                     <g id="Icon_feather-home" data-name="Icon feather-home" transform="translate(1275 1753.846)">
@@ -169,7 +169,7 @@ export default class Home extends Component {
                                                 </g>
                                             </svg>
                                         </div>
-                                        <h5>Specialized Pharmacy</h5>
+                                        <h5 className="wow fadeInUp" data-wow-delay=".6s">Specialized Pharmacy</h5>
                                     </div>
                                 </div>
                             </div>
@@ -177,7 +177,7 @@ export default class Home extends Component {
                     </section>
 
                 </Contentpage>
-                <a href="/" className="scroll-top">
+                <a href="/" className="scroll-top wow fadeInUp" data-wow-delay="3s">
                 <i className="lni lni-arrow-up"></i>
             </a>
 
