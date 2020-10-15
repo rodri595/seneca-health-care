@@ -116,7 +116,7 @@ export default class Footer extends Component {
                             </div>
                         </div>
                         <div className="copyright-area">
-                            <p className="mb-0 text-center">Developed by <a href="/" rel="nofollow" className="wow fadeInUp" data-wow-delay="0.6s"> Rodrigo Erazo</a></p>
+                            <p className="mb-0 text-center">Developed by <a href="/" rel="nofollow"> Rodrigo Erazo</a></p>
                         </div>
                     </div>
                 </footer>

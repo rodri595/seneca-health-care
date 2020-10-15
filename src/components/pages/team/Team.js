@@ -17,7 +17,7 @@ export default class Team extends Component {
                                     <div className="about-content text-center mb-55">
                                         <div className="section-title mb-30">
                                             <span className="wow fadeInDown" data-wow-delay=".2s">Team</span>
-                                            <h2 className="mb-15 wow fadeInUp" data-wow-delay=".4s">Meet Out Doctors</h2>
+                                            <h2 className="mb-15 wow fadeInUp" data-wow-delay=".4s">Meet Our Doctors</h2>
                                         </div>
                                         <p className="mb-35 wow fadeInUp" data-wow-delay=".6s">
                                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dinonumy
