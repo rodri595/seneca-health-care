@@ -195,8 +195,8 @@ export default class Service extends Component {
 			<div class="row">
 				<div class="col-xl-8 mx-auto">
 					<div class="section-title text-center mb-55">
-						<span class="wow fadeInDown" data-wow-delay=".2s">Your Using Free Lite Version of The Template</span>
-						<h2 class="mb-15 wow fadeInUp" data-wow-delay=".4s">Please, purchase full version</h2>
+						<span class="wow fadeInDown" data-wow-delay=".2s">Testimonial</span>
+						<h2 class="mb-15 wow fadeInUp" data-wow-delay=".4s">What Our Patients Says</h2>
 						<p class="wow fadeInUp" data-wow-delay=".6s">To get all sections and permission to use with commercial projects & footer credit remove <br/></p><br/>
 						<a href="/" rel="nofollow" class="btn theme-btn">Purchase Now</a>
 					</div>
