@@ -36,21 +36,21 @@ export default class Footer extends Component {
                             <div className="row">
                                 <div className="col-xl-4 col-lg-5 col-md-6">
                                     <div className="footer-widget mb-30">
-                                        <a href="/" className="logo"><img src={logo} style={{ width: "200px" }} alt="logo" /></a>
+                                        <a href="/" className="logo wow fadeInUp" data-wow-delay="0.4s"><img src={logo} style={{ width: "200px" }} alt="logo" /></a>
                                         <p>Lorem ipsum dolor serit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
                                         labore dolore magna
 								aliquyam erat diam voluptua.</p>
                                         <div className="footer-social-links">
                                             <ul>
-                                                <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/senecahealthcare"><i className="lni lni-facebook-filled"></i></a></li>
-                                                <li><a href="/"><i className="lni lni-twitter-filled"></i></a></li>
-                                                <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/senecahealthcare/"><i className="lni lni-instagram-original"></i></a></li>
+                                                <li className="wow fadeInUp" data-wow-delay="0.4s"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/senecahealthcare"><i className="lni lni-facebook-filled"></i></a></li>
+                                                <li className="wow fadeInUp" data-wow-delay="0.4s"><a href="/"><i className="lni lni-twitter-filled"></i></a></li>
+                                                <li className="wow fadeInUp" data-wow-delay="0.4s"><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/senecahealthcare/"><i className="lni lni-instagram-original"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-xl-2 col-lg-3 col-md-6">
-                                    <div className="footer-widget mb-30">
+                                    <div className="footer-widget mb-30 wow fadeInUp" data-wow-delay="0.4s">
                                         <h4>Links</h4>
                                         <ul className="footer-links">
                                             <li><a href="/">Home</a></li>
@@ -62,7 +62,7 @@ export default class Footer extends Component {
                                     </div>
                                 </div>
                                 <div className="col-xl-2 col-lg-3 col-md-5">
-                                    <div className="footer-widget mb-30">
+                                    <div className="footer-widget mb-30 wow fadeInUp" data-wow-delay="0.4s">
                                         <h4>Insurance</h4>
                                         <ul className="footer-links">
                                             <li><a href="/">Aetna</a></li>
@@ -77,7 +77,7 @@ export default class Footer extends Component {
                                     </div>
                                 </div>
                                 <div className="col-xl-4 col-lg-12 col-md-7">
-                                    <div className="footer-widget mb-30">
+                                    <div className="footer-widget mb-30 wow fadeInUp" data-wow-delay="0.4s">
                                         <h4>Medical Location</h4>
 
                                         <Map style={{ borderRadius: "15px", height: "200px" }} center={[26.182332, -80.252711]} zoom={18}>
@@ -116,7 +116,7 @@ export default class Footer extends Component {
                             </div>
                         </div>
                         <div className="copyright-area">
-                            <p className="mb-0 text-center">Developed by <a href="/" rel="nofollow"> Rodrigo Erazo</a></p>
+                            <p className="mb-0 text-center">Developed by <a href="/" rel="nofollow" className="wow fadeInUp" data-wow-delay="0.6s"> Rodrigo Erazo</a></p>
                         </div>
                     </div>
                 </footer>
