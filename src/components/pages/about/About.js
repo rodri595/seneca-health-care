@@ -34,6 +34,9 @@ export default class About extends Component {
                     </section>
 
                 </Contentpage>
+                <a href="/about" className="scroll-top">
+                <i class="lni lni-arrow-up"></i>
+            </a>
 
             </>
         )

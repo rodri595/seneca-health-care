@@ -197,8 +197,9 @@ export default class Service extends Component {
 					<div class="section-title text-center mb-55">
 						<span class="wow fadeInDown" data-wow-delay=".2s">Testimonial</span>
 						<h2 class="mb-15 wow fadeInUp" data-wow-delay=".4s">What Our Patients Says</h2>
-						<p class="wow fadeInUp" data-wow-delay=".6s">To get all sections and permission to use with commercial projects & footer credit remove <br/></p><br/>
-						<a href="/" rel="nofollow" class="btn theme-btn">Purchase Now</a>
+						<p class="wow fadeInUp" data-wow-delay=".6s"> <br/> orem ipsum dolor sit amet, consetet
+								sadipscing elitr, sed dinonumy eirmod tempor invidun</p><br/>
+						<a href="/" rel="nofollow" class="btn theme-btn">Contact Now</a>
 					</div>
 				</div>
 			</div>
@@ -208,6 +209,10 @@ export default class Service extends Component {
 
 
                 </Contentpage>
+
+                <a href="/services" className="scroll-top">
+                <i class="lni lni-arrow-up"></i>
+            </a>
 
             </>
         )

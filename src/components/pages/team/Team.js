@@ -37,6 +37,9 @@ export default class Team extends Component {
 
 
                 </Contentpage>
+                <a href="/team" className="scroll-top">
+                <i class="lni lni-arrow-up"></i>
+            </a>
             </>
         )
     }

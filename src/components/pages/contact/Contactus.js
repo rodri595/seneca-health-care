@@ -7,6 +7,10 @@ export default class Contactus extends Component {
             <>
             <Contentpage pagetitlenavbar="Contact"/> 
 
+            <a href="/contact" className="scroll-top">
+                <i class="lni lni-arrow-up"></i>
+            </a>
+
             </>
         )
     }
