@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import Contentpage from "../../contentpage/Contentpage"
 
 import slider1 from "./slider-1.jpg"
-import slider2 from "./slider-2.jpg"
-import slider3 from "./slider-3.jpg"
 import dna from "./dna.svg"
 import graph from "./graph.svg"
 
@@ -30,8 +28,6 @@ export default class Home extends Component {
                 </div>
                 <Contentpage pagetitlenavbar="Home" >
 
-
-
                     <div className="slider-wrapper">
                         <section className="slider-section">
                             <div className="slider-active slick-style">
@@ -53,71 +49,34 @@ export default class Home extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="single-slider img-bg" style={{ backgroundImage: `url(${slider2})` }} >
-                                    <div className="container">
-                                        <div className="row">
-                                            <div className="col-xl-7 col-lg-8 col-md-10">
-                                                <div className="slider-content">
-                                                    <h1 >Best Doctors and Equipments in Town
-										</h1>
-                                                    <p >Lorem ipsum
-                                                    dolor sit amet, consetetur sadipscing elitr, sed dinonumy eirmod tempor invidunt
-                                                    ut labore et dolore magna aliquyam erat. Lorem ipsum dolor sit amet, consetetur
-											sadipscing elitr.</p>
-                                                    <a href="/contact" className="btn theme-btn page-scroll"
-                                                    >Make
-											Appoinment</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="single-slider img-bg" style={{ backgroundImage: `url(${slider3})` }}>
-                                    <div className="container">
-                                        <div className="row">
-                                            <div className="col-xl-7 col-lg-8 col-md-10">
-                                                <div className="slider-content">
-                                                    <h1 >Your Health is Our Top Priority
-										</h1>
-                                                    <p >Lorem ipsum
-                                                    dolor sit amet, consetetur sadipscing elitr, sed dinonumy eirmod tempor invidunt
-                                                    ut labore et dolore magna aliquyam erat. Lorem ipsum dolor sit amet, consetetur
-											sadipscing elitr.</p>
-                                                    <a href="/services" className="btn theme-btn page-scroll"
-                                                    >Our Services</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </section>
                     </div>
 
-                    <section class="we-do-section pt-150">
-                        <div class="shape shape-1">
+                    <section className="we-do-section pt-150">
+                        <div className="shape shape-1">
                             <img src={dna} alt="" />
                         </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-8 mx-auto">
-                                    <div class="section-title text-center mb-55">
-                                        <span class="wow fadeInDown" data-wow-delay=".2s">What We Do</span>
-                                        <h2 class="mb-15 wow fadeInUp" data-wow-delay=".4s">What We Provide for Your Health</h2>
-                                        <p class="wow fadeInUp" data-wow-delay=".6s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-							dinonumy <br class="d-none d-lg-block" /> eirmod tempor invidunt ut labore et dolore magn.</p>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-xl-8 mx-auto">
+                                    <div className="section-title text-center mb-55">
+                                        <span className="wow fadeInDown" data-wow-delay=".2s">What We Do</span>
+                                        <h2 className="mb-15 wow fadeInUp" data-wow-delay=".4s">What We Provide for Your Health</h2>
+                                        <p className="wow fadeInUp" data-wow-delay=".6s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+							dinonumy <br className="d-none d-lg-block" /> eirmod tempor invidunt ut labore et dolore magn.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="graph mb-60">
-                                        <img src={graph} alt="graph" />
+                            <div className="row mb-35 wow fadeInUp" data-wow-delay=".8s">
+                                <div className="col-xl-12">
+                                    <div className="graph mb-60">
+                                        <img className="mb-35 wow fadeInUp" data-wow-delay="1s" src={graph} alt="graph" />
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
-                                    <div class="we-do-item mb-30">
-                                        <div class="we-do-icon mb-25">
+                                <div className="col-lg-3">
+                                    <div className="we-do-item mb-30">
+                                        <div className="we-do-icon mb-25">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="40.839" height="48.598" viewBox="0 0 40.839 48.598">
                                                 <g id="we-do-1" transform="translate(-12.184 -5)">
                                                     <path id="Path_48" data-name="Path 48"
@@ -142,9 +101,9 @@ export default class Home extends Component {
                                         <h5>Specialist Doctors</h5>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
-                                    <div class="we-do-item mb-30">
-                                        <div class="we-do-icon mb-25">
+                                <div className="col-lg-3">
+                                    <div className="we-do-item mb-30">
+                                        <div className="we-do-icon mb-25">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="53.947" height="42.07" viewBox="0 0 53.947 42.07">
                                                 <g id="we-do-2" transform="translate(12.41 -88.75)">
                                                     <g id="Group_133" data-name="Group 133" transform="translate(-12.41 88.75)">
@@ -176,9 +135,9 @@ export default class Home extends Component {
                                         <h5>Frequent Visits</h5>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
-                                    <div class="we-do-item mb-30">
-                                        <div class="we-do-icon mb-25">
+                                <div className="col-lg-3">
+                                    <div className="we-do-item mb-30">
+                                        <div className="we-do-icon mb-25">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="48.152" height="48.154" viewBox="0 0 48.152 48.154">
                                                 <g id="we-do-3" transform="translate(-1.846 -1.846)">
                                                     <path id="Path_59" data-name="Path 59"
@@ -193,9 +152,9 @@ export default class Home extends Component {
                                         <h5>Cordial Administration</h5>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
-                                    <div class="we-do-item mb-30">
-                                        <div class="we-do-icon mb-25">
+                                <div className="col-lg-3">
+                                    <div className="we-do-item mb-30">
+                                        <div className="we-do-icon mb-25">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="46.239" height="51.043" viewBox="0 0 46.239 51.043">
                                                 <g id="we-do-4" transform="translate(-1273.5 -1752.346)">
                                                     <g id="Icon_feather-home" data-name="Icon feather-home" transform="translate(1275 1753.846)">
@@ -219,7 +178,7 @@ export default class Home extends Component {
 
                 </Contentpage>
                 <a href="/" className="scroll-top">
-                <i class="lni lni-arrow-up"></i>
+                <i className="lni lni-arrow-up"></i>
             </a>
 
             </>

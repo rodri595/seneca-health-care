@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import WOW from 'wowjs';
 
 
 import "./assets/css/bootstrap-5.0.5-alpha.min.css"
@@ -16,6 +17,12 @@ import Service from "./components/pages/service/Service";
 import Team from "./components/pages/team/Team";
  
 class App extends Component {
+
+  componentDidMount() {
+    new WOW.WOW({
+        live: true
+    }).init();
+}
   render() {
     return (
       <Router>
