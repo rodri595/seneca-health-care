@@ -10,7 +10,7 @@ export default class About extends Component {
                 <Contentpage pagetitlenavbar="About">
                     <section id="about" className="about-section pt-120">
                         <div className="shape shape-2">
-                            <img src={atom} alt="" />
+                            <img className="rotating" src={atom} alt="" />
                         </div>
                         <div className="container">
                             <div className="row">

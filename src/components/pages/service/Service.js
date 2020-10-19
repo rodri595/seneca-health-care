@@ -15,7 +15,7 @@ export default class Service extends Component {
 
                     <section id="services" className="service-section pt-150">
                         <div className="shape shape-3">
-                            <img src={molecule} alt="" />
+                            <img className="rotating" src={molecule} alt="" />
                         </div>
                         <div className="container">
                             <div className="row">

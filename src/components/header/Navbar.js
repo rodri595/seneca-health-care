@@ -6,7 +6,7 @@ export default class Navbar extends Component {
     render() {
         return (
             <div className="header-wrapper">
-				<div className="header-top theme-bg">
+				<div className="header-top theme-bg" style={{backgroundImage: "linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%)",textTransform:"uppercase", transition:"0.5s", boxShadow: "0 0 20px #eee", padding:" 15px 45px"}}>
 					<div className="container">
 						<div className="row">
 							<div className="col-md-8">
@@ -29,7 +29,7 @@ export default class Navbar extends Component {
 						</div>
 					</div>
 				</div>
-				<div className="navbar-area">
+				<div className="navbar-area" style={{zIndex:"9909"}}>  
 					<div className="container">
 						<div className="row">
 							<div className="col-lg-12">
