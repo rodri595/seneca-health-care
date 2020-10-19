@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Contentpage from "../../contentpage/Contentpage"
 
-import slider1 from "./slider-1.jpg"
+import slider1 from "./medicine.svg"
 import dna from "./dna.svg"
 import graph from "./graph.svg"
 
@@ -31,24 +31,26 @@ export default class Home extends Component {
      
                         <section className="slider-section wow fadeInUp" data-wow-delay=".4s">
                             
-                                <div className="single-slider img-bg" style={{ backgroundImage: `url(${slider1})` }} >
-                                    <div className="container">
+
+                                    <div className="container" style={{minHeight:"70vh"}}>
                                         <div className="row">
-                                            <div className="col-xl-7 col-lg-8 col-md-10">
+                                            <div style={{marginTop:"40px"}} className="col-xl-6 col-lg-4 col-md-3">
                                                 <div className="slider-content wow fadeInUp" data-wow-delay=".6s">
-                                                    <h1 >Complete Healthcare Solution
-										</h1>
+                                                    <h1 >Complete Healthcare Solution</h1>
                                                     <p >Lorem ipsum
                                                     dolor sit amet, consetetur sadipscing elitr, sed dinonumy eirmod tempor invidunt
                                                     ut labore et dolore magna aliquyam erat. Lorem ipsum dolor sit amet, consetetur
-											sadipscing elitr.</p>
+											            sadipscing elitr.</p>
                                                     <a href="/about" className="btn theme-btn page-scroll wow fadeInUp" data-wow-delay=".8s"
                                                     >Learn More</a>
                                                 </div>
+
+                                            </div>
+                                            <div  style={{marginTop:"40px"}} className="col-xl-6 col-lg-8 col-md-9 wow fadeInUp" data-wow-delay=".4s">
+                                                <img  src={slider1} alt="" />
                                             </div>
                                         </div>
                                
-                            </div>
                             </div>
                         </section>
               

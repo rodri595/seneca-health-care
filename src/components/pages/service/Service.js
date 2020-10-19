@@ -4,13 +4,15 @@ import Contentpage from "../../contentpage/Contentpage"
 
 import molecule from "./molecule.svg"
 import micro from "./micro.svg"
+import caduceus from "./caduceus.svg"
+import "./style.css"
 
 export default class Service extends Component {
     render() {
         return (
             <>
                 <Contentpage pagetitlenavbar="Services">
-                    
+
                     <section id="services" className="service-section pt-150">
                         <div className="shape shape-3">
                             <img src={molecule} alt="" />
@@ -50,7 +52,7 @@ export default class Service extends Component {
                                             <h4 className="wow fadeInUp" data-wow-delay="0.6s">Cardiology</h4>
                                             <p>Lorem ipsum dolor sit amet, consetet
 								sadipscing elitr, sed dinonumy eirmod tempor invidunt.</p>
-                                            <a href="/" className="read-more">Read More <i className="lni lni-arrow-right"></i></a>
+                                            <a href="/contact" className="read-more">More Info <i className="lni lni-arrow-right"></i></a>
                                         </div>
                                         <div className="service-overlay img-bg"></div>
                                     </div>
@@ -79,7 +81,7 @@ export default class Service extends Component {
                                             <h4 className="wow fadeInUp" data-wow-delay="0.6s">Neurology</h4>
                                             <p>Lorem ipsum dolor sit amet, consetet
 								sadipscing elitr, sed dinonumy eirmod tempor invidunt.</p>
-                                            <a href="/" className="read-more">Read More <i className="lni lni-arrow-right"></i></a>
+                                            <a href="/contact" className="read-more">More Info <i className="lni lni-arrow-right"></i></a>
                                         </div>
                                         <div className="service-overlay img-bg"></div>
                                     </div>
@@ -104,7 +106,7 @@ export default class Service extends Component {
                                             <h4 className="wow fadeInUp" data-wow-delay="0.6s">Gastroenterology</h4>
                                             <p>Lorem ipsum dolor sit amet, consetet
 								sadipscing elitr, sed dinonumy eirmod tempor invidunt.</p>
-                                            <a href="/" className="read-more">Read More <i className="lni lni-arrow-right"></i></a>
+                                            <a href="/contact" className="read-more">More Info <i className="lni lni-arrow-right"></i></a>
                                         </div>
                                         <div className="service-overlay img-bg"></div>
                                     </div>
@@ -128,7 +130,7 @@ export default class Service extends Component {
                                             <h4 className="wow fadeInUp" data-wow-delay="0.6s">Orthopedics</h4>
                                             <p>Lorem ipsum dolor sit amet, consetet
 								sadipscing elitr, sed dinonumy eirmod tempor invidunt.</p>
-                                            <a href="/" className="read-more">Read More <i className="lni lni-arrow-right"></i></a>
+                                            <a href="/contact" className="read-more">More Info <i className="lni lni-arrow-right"></i></a>
                                         </div>
                                         <div className="service-overlay img-bg"></div>
                                     </div>
@@ -154,7 +156,7 @@ export default class Service extends Component {
                                             <h4 className="wow fadeInUp" data-wow-delay="0.6s">Gynecology</h4>
                                             <p>Lorem ipsum dolor sit amet, consetet
 								sadipscing elitr, sed dinonumy eirmod tempor invidunt.</p>
-                                            <a href="/" className="read-more">Read More <i className="lni lni-arrow-right"></i></a>
+                                            <a href="/contact" className="read-more">More Info <i className="lni lni-arrow-right"></i></a>
                                         </div>
                                         <div className="service-overlay img-bg"></div>
                                     </div>
@@ -178,7 +180,7 @@ export default class Service extends Component {
                                             <h4 className="wow fadeInUp" data-wow-delay="0.6s">Dental Surgery</h4>
                                             <p>Lorem ipsum dolor sit amet, consetet
 								sadipscing elitr, sed dinonumy eirmod tempor invidunt.</p>
-                                            <a href="/" className="read-more">Read More <i className="lni lni-arrow-right"></i></a>
+                                            <a href="/contact" className="read-more">More Info <i className="lni lni-arrow-right"></i></a>
                                         </div>
                                         <div className="service-overlay img-bg"></div>
                                     </div>
@@ -187,32 +189,80 @@ export default class Service extends Component {
                         </div>
                     </section>
 
-                    <section id="testimonial" class="team-section pt-150 pb-150">
-		<div class="shape shape-6">
-			<img src={micro} alt=""/>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-8 mx-auto">
-					<div class="section-title text-center mb-55">
-						<span class="wow fadeInDown" data-wow-delay=".2s">Testimonial</span>
-						<h2 class="mb-15 wow fadeInUp" data-wow-delay=".4s">What Our Patients Says</h2>
-						<p class="wow fadeInUp" data-wow-delay=".6s"> <br/> orem ipsum dolor sit amet, consetet
-								sadipscing elitr, sed dinonumy eirmod tempor invidun</p><br/>
-						<a href="/" rel="nofollow" class="btn theme-btn">Contact Now</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                    <section id="testimonial" className="team-section pt-150 pb-150">
+                        <div className="shape shape-6">
+                            <img style={{transform:"rotate(-25deg)"}} src={micro} alt="" />
+                        </div>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-xl-8 mx-auto">
+                                    <div className="section-title text-center mb-55">
+                                        <span className="wow fadeInDown" data-wow-delay=".2s">Testimonial</span>
+                                        <h2 className="mb-15 wow fadeInUp" data-wow-delay=".4s">What Our Patients Says</h2>
+                                        <p className="wow fadeInUp" data-wow-delay=".6s"> <br /> orem ipsum dolor sit amet, consetet
+								sadipscing elitr, sed dinonumy eirmod tempor invidun</p><br />
+
+                                        <section id="testimonials" className="testimonials section-bg">
+                                            <div className="container">
+
+                                                <div>
+
+                                                    <div className="testimonial-wrap wow fadeInUp" data-wow-delay=".4s">
+                                                        <div className="testimonial-item">
+                                                            <img src={caduceus} className="testimonial-img wow fadeInUp" data-wow-delay=".6s" style={{backgroundColor:"whitesmoke"}} alt="" />
+                                                            <h3>Rodrigo Erazo</h3>
+                                                            <h4>Ceo &amp; Founder</h4>
+                                                            <p>
+                                                                <i className="bx bxs-quote-alt-left quote-icon-left">"</i>
+                                                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. 
+                                                            Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                                                 <i className="bx bxs-quote-alt-right quote-icon-right">"</i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div className="testimonial-wrap wow fadeInUp" data-wow-delay=".4s">
+                                                        <div className="testimonial-item">
+                                                            <img src={caduceus} className="testimonial-img wow fadeInUp" data-wow-delay=".6s" style={{backgroundColor:"whitesmoke"}} alt="" />
+                                                            <h3>Luis Aleman</h3>
+                                                            <h4>Ceo &amp; Founder</h4>
+                                                            <p >
+                                                                <i className="bx bxs-quote-alt-left quote-icon-left">"</i>
+                                                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. 
+                                                            Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                                                 <i className="bx bxs-quote-alt-right quote-icon-right">"</i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+
+                                            </div>
+                                        </section>
+
+
+
+
+
+
+
+
+                                        <a href="/" rel="nofollow" className="btn theme-btn wow fadeInUp" data-wow-delay="0.6s" >Contact Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
 
 
 
                 </Contentpage>
 
                 <a href="/services" className="scroll-top wow fadeInUp" data-wow-delay="3s">
-                <i class="lni lni-arrow-up"></i>
-            </a>
+                    <i className="lni lni-arrow-up"></i>
+                </a>
 
             </>
         )
