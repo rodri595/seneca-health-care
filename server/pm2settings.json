@@ -1,0 +1,16 @@
+{
+	"apps": [{
+		"name"	: "app",
+		"script": "bin/www",
+		"watch":  ["views", "public", "routes"],
+		"increment_var" : "PORT",
+		"instances" : "2",
+		"env": {
+			"PORT": 3001,
+			"NODE_ENV": "production"
+		},
+		"log_date_format":  "MM-DD-YYYY HH:mm Z",
+		"error_file":  "myapp_err.log",
+		"out_file":  "myapp_out.log"
+	}]
+}
